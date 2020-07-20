@@ -1,6 +1,6 @@
 {
     "name": "react-pdf-svg-render",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "private": false,
     "main": "index.js",
     "keywords": [
@@ -10,14 +10,12 @@
         "svg"
     ],
     "dependencies": {
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
         "lodash": "latest",
         "pdfjs-dist": "^2.4.456",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-scripts": "3.4.1"
+        "react-scripts": "3.4.1",
+        "worker-loader": "^2.0.0"
     },
     "scripts": {
         "start": "react-scripts start",
