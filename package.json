@@ -1,6 +1,6 @@
 {
     "name": "react-pdf-svg-render",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "private": false,
     "main": "index.js",
     "keywords": [
@@ -9,6 +9,10 @@
         "render",
         "svg"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phuong101899/react-pdf-svg-render.git"
+    },
     "dependencies": {
         "lodash": "latest",
         "pdfjs-dist": "^2.4.456",
