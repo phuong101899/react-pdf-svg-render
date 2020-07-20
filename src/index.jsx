@@ -3,7 +3,7 @@ import PDFJS from 'pdfjs-dist/webpack';
 import 'pdfjs-dist/web/pdf_viewer.css';
 import * as _ from 'lodash';
 
-function PdfRender({url}) {
+function Index({url}) {
     const root = useRef(null);
     useEffect(() => {
         render();
@@ -57,4 +57,4 @@ function PdfRender({url}) {
     );
 }
 
-export default PdfRender;
+export default Index;
