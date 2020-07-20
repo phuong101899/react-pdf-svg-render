@@ -31,7 +31,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-function PdfRender(_ref) {
+function Index(_ref) {
   var url = _ref.url;
   var root = (0, _react.useRef)(null);
   (0, _react.useEffect)(function () {
@@ -140,18 +140,5 @@ function PdfRender(_ref) {
   });
 }
 
-var _default = PdfRender;
-exports.default = _default;
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _PdfRender = _interopRequireDefault(require("./PdfRender"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = _PdfRender.default;
+var _default = Index;
 exports.default = _default;
