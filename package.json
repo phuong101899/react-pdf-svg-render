@@ -18,7 +18,7 @@
         "pdfjs-dist": "^2.4.456",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-scripts": "3.4.1",
+        "react-scripts": "5.0.1",
         "worker-loader": "^2.0.0"
     },
     "scripts": {
